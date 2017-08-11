@@ -24,5 +24,5 @@ summary(mpg$hwy)
 #base R plot
 plot(displ~hwy,data=mpg)
 
-#using functin from package ggplot2, which was loaded into R by package tidyverse
+#using function from package ggplot2, which was loaded into R by package tidyverse
 qplot(displ,hwy,data=mpg)
